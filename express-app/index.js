@@ -1,10 +1,9 @@
-// import the package data object
-// look at the `package-data.js` file to see the structure
-const packageData = require('./package-data');
-
 // Set up your express node app!
 // First require your dependancies (express and mustache express)
 
+
+// require the package data module
+// look at the `package-data.js` file to see the structure
 
 // define your port
 

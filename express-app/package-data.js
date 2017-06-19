@@ -1,4 +1,4 @@
-module.exports = {
+const packageData = {
 
     title: 'Popular NPM Frameworks',
     text: 'These are the most popular frameworks',
@@ -48,3 +48,5 @@ module.exports = {
       }
     ]
 }
+
+// Export your module here!

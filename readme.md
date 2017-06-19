@@ -15,7 +15,7 @@ It's biggest highlights are:
 
 - extremely lightweight/minimalistic (gives you the power to have more control over your application)
 - easy to create routes
-- very simple to apply middleware
+- very simple to apply [middleware](https://expressjs.com/en/guide/using-middleware.html)
 
 ## Assignment
 
@@ -40,13 +40,14 @@ Take a look at the `package.json` file. Express and Mustache-Express should be i
 Lets start working in `index.js` to set up our app's structure. _(There are lots of new steps here so key words will be `highlighted` to help.)_
 
 1. First `require` your dependancies (express and mustache-express).
-2. Define your `port`.
-3. Define your `app` using the express dependency you defined earlier.
-4. `Set` your `app` engine to use `mustache-express`.
-5. `Set` your `app` `view engine` to `html`.
-6. `Set` your `app` `views` `directory`.
-7. Tell your `app` to `use` the `public` `directory` as `static`.
-8. Tell your `app` to `listen` on your `port`.
+2. `Require` the `package-data` file as a module.
+3. Define your `port`.
+4. Define your `app` using the express dependency you defined earlier.
+5. `Set` your `app` engine to use `mustache-express`.
+6. `Set` your `app` `view engine` to `html`.
+7. `Set` your `app` `views` `directory`.
+8. Tell your `app` to `use` the `public` `directory` as `static`.
+9. Tell your `app` to `listen` on your `port`.
 
 ### Part 3 - Routing in Express
 
@@ -130,3 +131,8 @@ The only way to feel more comfortable with this material is by doing it. Repeate
 - Use flexbox to arrange your NPM package list
 - Add a [Google Font](https://fonts.google.com/)
 - Add some cool [default colors](http://htmlcolorcodes.com/color-names/) or mix your own using the color factory we made this morning!
+
+
+## Submission
+
+Homework is due by **11:00 Tonight**! Remember to work with each other and go to TAs when you need it, but follow the [guidelines](https://git.generalassemb.ly/wdi-nyc-5-22/course-information/blob/master/how-to-queue-with-TAs.md) for queuing. Follow the normal [rules for homework submission](https://git.generalassemb.ly/wdi-nyc-5-22/course-information/blob/master/homework-policy.md), remember to include a link to your **repo**.
