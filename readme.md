@@ -23,7 +23,7 @@ It's biggest highlights are:
 
 1. In terminal go to the `express-app` directory.
 2. Run `npm init` _(hit enter a bunch of times to accept the defaults and see the new [package.json](https://docs.npmjs.com/cli/init) file)_
-3. Run `npm instal express --save`. _(The `--save` option adds the module as a dependency in your package.json file. This allows anyone looking at your app (i.e. a dev team member) to be able to see what your app is "made of" and if they clone your app and run `npm i` all dependencies will be installed.)_
+3. Run `npm instal express --save`. _(The `--save` option adds the module as a dependency in your package.json file. This allows anyone looking at your app (i.e. a dev team member) to be able to see what your app is "made of" and if they clone your app and run `npm install` all dependencies will be installed.)_
 4. Run `npm install mustache-express --save`
 
 Take a look at the `package.json` file. Express and Mustache-Express should be included as dependencies:
