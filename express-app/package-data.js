@@ -50,3 +50,4 @@ const packageData = {
 }
 
 // Export your module here!
+module.exports = packageData;

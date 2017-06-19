@@ -1,5 +1,5 @@
 // Set up your express node app!
-// First require your dependancies (express and mustache express)
+// First require your packages (express and mustache express)
 
 
 // require the package data module

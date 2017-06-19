@@ -34,12 +34,14 @@ Take a look at the `package.json` file. Express and Mustache-Express should be i
   "mustache-express": "^1.2.4"
 }
 ```
+***Note***:
+> If you accidentally install an incorrect package use `npm uninstall [PACKAGE NAME GOES HERE] --save`
 
 ### Part 2 - Setting up the App
 
 Lets start working in `index.js` to set up our app's structure. _(There are lots of new steps here so key words will be `highlighted` to help.)_
 
-1. First `require` your dependancies (express and mustache-express).
+1. First `require` your packages (express and mustache-express).
 2. `Require` the `package-data` file as a module.
 3. Define your `port`.
 4. Define your `app` using the express dependency you defined earlier.
@@ -77,7 +79,7 @@ Feel free to look at the **express docs** to learn more!
 
 Using this information, lets set up a couple routes.
 
-1. Set up your root ('/') get route
+1. Set up your root (`/`) get route
     - This route should render the `index` view
     - it should pass the packageData object to the view with the render
 2. Create a get route for the root with an id parameter (`/:id`)
