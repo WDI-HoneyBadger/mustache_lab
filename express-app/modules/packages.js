@@ -10,10 +10,10 @@ const packages = {
         img: 'https://camo.githubusercontent.com/fc61dcbdb7a6e49d3adecc12194b24ab20dfa25b/68747470733a2f2f692e636c6f756475702e636f6d2f7a6659366c4c376546612d3330303078333030302e706e67'
       },
       {
-        name: 'Mustache'
-        category: 'Template System'
+        name: 'Mustache',
+        category: 'Template System',
         img: 'https://cloud.githubusercontent.com/assets/288977/8779228/a3cf700e-2f02-11e5-869a-300312fb7a00.gif'
-      }
+      },
       {
         name: 'Gulp',
         category: 'Build System',
